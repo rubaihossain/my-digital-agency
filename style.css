@@ -7,6 +7,15 @@
     color: #F52C2C;
 }
 
+.btn{
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 15px;
+}
+
 /* Nav Section */
 .nav-container{
     display: flex;
@@ -73,3 +82,126 @@
     background-color: #F52C2C;
     color: white;
 }
+
+/* Services Section */
+.services{
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 120vh;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.services-help{
+    width: 50%;
+    padding-left: 30px;
+    color: #BECFD0;
+}
+.services-help h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.services-help p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+.services-help li{
+    margin: 5px;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.author-details img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 5px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #F52C2C;
+    padding-right: 50px;
+    color: white;
+}
+.details-btn{
+    color: #F52C2C;
+    margin-left: 15px;
+}
+
+.services-items{
+    width: 50%;
+    padding-right: 30px;
+    color: black;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.box{
+    background-color: white;
+    border-radius: 6px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    
+}
+.boxes img{
+    width: 100px;
+    padding-top: 80px;
+}
+.boxes h3{
+    padding: 20px 40px;
+}
+
+/* Helpline Box section */
+.helpline-container{
+    display: flex;
+    color: white;
+    background-color: #F52C2C;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-top: -80px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    width: 290px;
+    border-right: 2px solid gray;
+    padding-right: 20px;
+}
+.phone small{
+    font-size: 12px;
+}
+.phone h1{
+    font-size: 32px;
+    margin-left: 20px;
+}
+.phone img{
+    width: 100px;
+}
+.helpline-btn{
+    border: none;
+    font-size: 14px;
+    padding: 13px 50px;
+    border-radius: 25px;
+    background-color: white;
+}
+.helpline-container p{
+    padding: 0 10px;
+}
+

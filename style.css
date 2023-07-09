@@ -205,3 +205,42 @@
     padding: 0 10px;
 }
 
+/* Blog Section */
+
+.blog-container{
+    margin-top: 50px;
+    height: 100vh;
+}
+.blog-container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.blog-container .caption{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 60px 0 60px;
+}
+.blog{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(162, 162, 162);
+}
+.blog img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blog h2{
+    padding: 20px 20px 20px 10px;
+}
+.blog p{
+    font-size: 19px;
+    padding: 0 20px 50px 10px;
+}

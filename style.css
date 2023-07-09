@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+/* Primary Section */
+.primary-color{
+    color: #F52C2C;
+}
 
 /* Nav Section */
 .nav-container{
@@ -30,4 +34,42 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+/* Banner Section */
+
+.banner{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.banner-container{
+    width: 50%;
+}
+.banner h1{
+    font-size: 83px;
+}
+.banner p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.banner button{
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 30px 5px 0px 5px;
+}
+
+.banner .btn1{
+    background-color: #F52C2C;
+    color: white;
 }

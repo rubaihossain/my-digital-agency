@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav Section */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+    padding: 15px 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo h3{
+    color: aqua;
+}
+.nav-logo img{
+    width: 200px;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
